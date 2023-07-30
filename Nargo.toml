@@ -1,8 +1,8 @@
 [package]
 name = "storage_proof_demo"
-authors = [""]
+authors = ["Maddiaa"]
 compiler_version = "0.8.0"
 
 [dependencies]
-proof = { path = "../demo/noir-trie-proofs" }
+proof = { tag = "main", git = "https://github.com/aragonzkresearch/noir-trie-proofs" }
 
