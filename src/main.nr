@@ -1,7 +1,8 @@
 use dep::proof;
 
 fn main(
-    // Trie proof
+    // Trie proof (5 levels * rlp encoded branch node size (532 bytes))
+    // If you are working with larger tries, you will need to increase this
     proof: [u8; 2660], 
     
     // The storage slot we would like to prove
