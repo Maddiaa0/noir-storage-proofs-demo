@@ -1,0 +1,8 @@
+[package]
+name = "storage_proof_demo"
+authors = [""]
+compiler_version = "0.8.0"
+
+[dependencies]
+proof = { path = "../demo/noir-trie-proofs" }
+
